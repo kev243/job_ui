@@ -34,7 +34,8 @@ class JobCard extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Container(
-                      height: 60,
+                      height: 50,
+                      //width: 20,
                       child: Image.asset(logoImagePath),
                     ),
                     ClipRRect(
@@ -42,7 +43,7 @@ class JobCard extends StatelessWidget {
                       child: Container(
                         padding: EdgeInsets.all(8),
                         child: Text(
-                          'Part Time',
+                          'Temps Partiel',
                           style: TextStyle(color: Colors.white),
                         ),
                         color: Colors.grey[500],

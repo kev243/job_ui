@@ -55,8 +55,8 @@ class _HomePageState extends State<HomePage> {
           Padding(
             padding: const EdgeInsets.only(left: 25.0),
             child: Text(
-              'Discover a New Path',
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),
+              'Découvre un nouveau chemin',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 27),
             ),
           ),
           SizedBox(height: 25),
@@ -107,8 +107,8 @@ class _HomePageState extends State<HomePage> {
           Padding(
               padding: const EdgeInsets.only(left: 25.0),
               child: Text(
-                'For you',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),
+                'Compagnie Populaire',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
               )),
 
                SizedBox(height: 25),
@@ -137,8 +137,8 @@ class _HomePageState extends State<HomePage> {
           Padding(
               padding: const EdgeInsets.only(left: 25.0),
               child: Text(
-                'Recently Added',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),
+                'Récemment ajouté',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
               )),
               // SizedBox(height: 50),
 
